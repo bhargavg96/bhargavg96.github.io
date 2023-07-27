@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third year PhD in the School of Industrial Engineering specializing in machine learning and artificial intelligence at Purdue Univesity advised by [Dr. Vaneet Aggarwal] (https://www.linkedin.com/in/vaneet-aggarwal-12060952/). 
+I am a third year PhD in the School of Industrial Engineering specializing in machine learning and artificial intelligence at Purdue Univesity advised by [Dr. Vaneet Aggarwal](https://www.linkedin.com/in/vaneet-aggarwal-12060952/). 
 I received my Bachelor’s and Master's degree in Electrical Engineering from Indian Institute of Technology Kanpur in 2019. I was advised by [Dr. Ketan Rajawat](https://home.iitk.ac.in/~ketan/) at IIT Kanpur.
 Prior to joining Purdue, I worked for an year and half as a Quantitative Developer at JP Morgan Chase & Co. 
 At JPMChase, I was part of the Wholesale Credit portfolio model implementation team, and my work was focused on development of statistical loss forecasting models for CRE, CMBS Loan portfolios.
