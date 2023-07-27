@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /publications/
-title: "Research Works"
+title: " "
 author_profile: true
 redirect_from:
 - /publications
