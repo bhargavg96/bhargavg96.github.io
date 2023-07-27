@@ -4,7 +4,8 @@ permalink: /publications/
 title: " "
 author_profile: true
 redirect_from:
-- /publications
+   - /publications/
+   - /publications.html
 ---
 
 Journal Papers
