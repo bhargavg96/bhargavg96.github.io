@@ -2,7 +2,6 @@
 layout: archive
 permalink: /publications/
 title: " "
-author_profile: true
 ---
 
 Journal Papers
