@@ -16,8 +16,7 @@ At JPMChase, I was part of the Wholesale Credit portfolio model implementation t
 
 Research Interests
 ======
-My research interests are broadly aligned with **Federated Learning**, **Distributed Machine Learning**, **Reinforcement Learning**, **Quantum Machine Learning**.  
-One of the key themes of my PhD research is towards developing efficient Federated Learning architectures for settings where clients experience cross-network data heterogeneity 
+My research interests are broadly aligned with **Federated Learning**, **Distributed Machine Learning**, **Reinforcement Learning**, **Quantum Machine Learning**. One of the key themes of my PhD research is towards developing efficient Federated Learning architectures for settings where clients experience cross-network data heterogeneity 
 as well as time-varying drifts in data distributions. I am also deeply interested in both theoretical aspects and application problems of Reinforcement Learning. 
 My prior works in RL establishes new platforms in **distributed training** scenarios. Recently, I have started exploring Quantum ML wherein I am specifically investigating how
 quantum statistical techniques could be leveraged to obtain ML model training speed-ups over their classical counterparts.
