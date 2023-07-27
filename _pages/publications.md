@@ -8,7 +8,7 @@ Journal Papers
 ======
 1. **Bhargav Ganguly**, Seyyedali Hosseinalipour, Kwang T. Kim, Christopher G. Brinton, Vaneet Aggarwal, David J Love, Mung Chiang, 
    "Multi-edge server-assisted dynamic federated learning with an optimized floating aggregation point", 
-   IEEE/ACM Transactions on Networking, April 2023. [Paper](<u><a href="https://ieeexplore.ieee.org/document/10106478">)
+   IEEE/ACM Transactions on Networking, April 2023. [Paper]("https://ieeexplore.ieee.org/document/10106478")
 1. **Bhargav Ganguly**, Vaneet Aggarwal, "Online Federated Learning via Non-Stationary Detection and Adaptation amidst Concept Drift",
    IEEE/ACM Transactions on Networking, July 2023. [Arxiv]("https://arxiv.org/pdf/2211.12578.pdf")
 
