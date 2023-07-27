@@ -1,16 +1,22 @@
 ---
 layout: archive
-title: "Publications"
-permalink: /publications/
+permalink: /papers/
 author_profile: true
+redirect_from:
+- /publications
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Journal Publications
+======
+1. "Multi-edge server-assisted dynamic federated learning with an optimized floating aggregation point"
+1. "Online Federated Learning via Non-Stationary Detection and Adaptation amidst Concept Drift"
 
-{% include base_path %}
+Conference Publications
+======
+1. "Communication efficient parallel reinforcement learning"
+1. "Randomized Linear Programming for Tabular Average-Cost Multi-agent Reinforcement Learning"
+1. "Convergence rates of average-reward multi-agent reinforcement learning via randomized linear programming"
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+Workshop Publications
+======
+1. "Decision making without prior knowledge in dynamic environments using Bootstrapped DQN"
