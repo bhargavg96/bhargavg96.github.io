@@ -23,6 +23,7 @@ The six additional publications use a native HTML disclosure, so all navigation 
 ## Research notes
 
 - `notes/index.html`: Research Notes listing.
-- `notes/master-fl/index.html`: first paper explainer, with source references and experimental results.
+- `notes/master-fl/index.html`: visual overview of adapting federated learning to concept drift.
+- `notes/dist-ucrl/index.html`: visual overview of communication-efficient parallel reinforcement learning.
 - The homepage links to notes from its navigation and a featured blurb.
 - Supplied research PDFs in `Bhargav_Ganguly_publications/` are local source material and are ignored by Git. Published notes link to public paper pages.
