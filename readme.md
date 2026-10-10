@@ -27,3 +27,15 @@ The six additional publications use a native HTML disclosure, so all navigation 
 - `notes/dist-ucrl/index.html`: visual overview of communication-efficient parallel reinforcement learning.
 - The homepage links to notes from its navigation and a featured blurb.
 - Supplied research PDFs in `Bhargav_Ganguly_publications/` are local source material and are ignored by Git. Published notes link to public paper pages.
+
+## Experience timeline logos
+
+Logos are stored locally in `img/logos/` and used to identify educational and professional affiliations. Original colors and proportions are preserved.
+
+- IIT Kanpur: [institute logo page](https://iitk.ac.in/iitk-logo), [image](https://iitk.ac.in/data/media/others/1_0.jpg).
+- Purdue: [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Purdue_University_system_logo.svg).
+- Amazon: [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Amazon_2024.svg).
+- JPMorgan Chase: [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:J_P_Morgan_Chase_Logo_2008_1.svg), historical wordmark.
+- Fuzzy Logix: [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Fuzzy_Logix_logo.jpg).
+
+The timeline is ordered by role start date, newest first. Internships during the IIT Kanpur and Purdue degrees are explicitly labeled; academic and employment dates may overlap.
