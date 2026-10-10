@@ -18,7 +18,7 @@ Open http://127.0.0.1:8765 in a browser. Stop the server with Ctrl+C.
 - `css/profile.css`: responsive layout and visual styles.
 - `img/`: existing portrait and publication images.
 
-The six additional publications use a native HTML disclosure, so all navigation and content work without JavaScript. Legacy theme assets remain available for older pages.
+The five additional publications use a native HTML disclosure, so all navigation and content work without JavaScript. Legacy theme assets remain available for older pages.
 
 ## Research notes
 
@@ -39,3 +39,12 @@ Logos are stored locally in `img/logos/` and used to identify educational and pr
 - Fuzzy Logix: [Wikimedia Commons source](https://commons.wikimedia.org/wiki/File:Fuzzy_Logix_logo.jpg).
 
 The timeline is ordered by role start date, newest first. Internships during the IIT Kanpur and Purdue degrees are explicitly labeled; academic and employment dates may overlap.
+
+## New visual notes
+
+- `notes/quantum-rl/index.html`: Q-UCRL’s access model, learning cycle, and theoretical horizon dependence. The comparison panel is a schematic, not measured performance.
+- `notes/ce-fl/index.html`: cooperative edge training and floating aggregation, illustrated with the paper’s architecture and results plots.
+- `img/notes/quantum-rl/interaction.png`: Figure 1, supplied quantum paper, page 4.
+- `img/notes/ce-fl/`: Figure 2 (page 2), Figure 3(c), and Figures 4(a–b) (page 14), supplied CE-FL paper.
+- All five new images are unmodified figure crops rendered directly from the supplied PDFs at 440 dpi. Source and figure references also appear on the notes. The PDFs remain local and ignored by Git.
+- The homepage features the two newest notes; the Notes index lists all four. Each original-research spotlight links to its corresponding note.

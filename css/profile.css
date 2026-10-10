@@ -907,3 +907,21 @@ details[open] summary span {
   .timeline-role { font-size:13px; }
   .timeline-stop + .timeline-stop .timeline-content { border:0; margin:0; padding:0; }
 }
+
+/* Explanatory panels for the quantum research note. */
+.note-process { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; list-style:none; padding:0; margin:28px 0; }
+.note-body .note-process li { margin:0; padding:20px; border:1px solid var(--line); background:white; }
+.note-process span { display:block; font-size:12px; color:var(--teal); margin-bottom:10px; }
+.note-process strong { display:block; font-size:19px; }
+.note-process p { font-size:14px; line-height:1.6; margin-top:8px; color:var(--muted); }
+.guarantee-comparison { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:26px; }
+.guarantee-comparison > div { padding:25px; background:#edf1ec; border-top:3px solid var(--teal); }
+.guarantee-comparison span { display:block; font-size:12px; color:var(--muted); }
+.guarantee-comparison strong { display:block; font:40px/1.3 var(--serif); margin:18px 0; color:var(--teal); }
+.guarantee-comparison p { font-size:14px; line-height:1.6; }
+@media(max-width:540px) {
+  .note-process, .guarantee-comparison { grid-template-columns:1fr; }
+  .note-body .note-process li { padding:18px; }
+  .note-process span { display:inline; margin-right:12px; }
+  .note-process strong { display:inline; }
+}
