@@ -19,3 +19,10 @@ Open http://127.0.0.1:8765 in a browser. Stop the server with Ctrl+C.
 - `img/`: existing portrait and publication images.
 
 The six additional publications use a native HTML disclosure, so all navigation and content work without JavaScript. Legacy theme assets remain available for older pages.
+
+## Research notes
+
+- `notes/index.html`: Research Notes listing.
+- `notes/master-fl/index.html`: first paper explainer, with source references and experimental results.
+- The homepage links to notes from its navigation and a featured blurb.
+- Supplied research PDFs in `Bhargav_Ganguly_publications/` are local source material and are ignored by Git. Published notes link to public paper pages.

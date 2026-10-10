@@ -21,7 +21,7 @@
 <header class="site-header">
   <nav class="wrap nav" aria-label="Main navigation">
     <a class="wordmark" href="#about" aria-label="Bhargav Ganguly, home">bhargav ganguly<span aria-hidden="true">.</span></a>
-    <div class="nav-links"><a href="#research">Research</a><a href="#experience">Experience</a><a href="#background">Background</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
+    <div class="nav-links"><a href="#research">Research</a><a href="/notes/">Notes</a><a href="#experience">Experience</a><a href="#background">Background</a><a class="nav-contact" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a></div>
   </nav>
 </header>
 <main id="main">
@@ -49,15 +49,15 @@
     </div>
     <div class="subsection-heading" id="publications_selected"><h3>Selected publications</h3><a class="text-link" href="https://scholar.google.com/citations?user=TkvmpFoAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a></div>
     <article class="paper" id="paper-quantum">
-      <div class="paper-image"><img src="/img/ICML_qucrl_.png" alt="Diagram from the quantum reinforcement learning research" loading="lazy"></div>
+      <a class="paper-image" href="/img/ICML_qucrl_.png" target="_blank" rel="noopener" aria-label="View full-size image: Diagram from the quantum reinforcement learning research (opens in a new tab)"><img src="/img/ICML_qucrl_.png" alt="Diagram from the quantum reinforcement learning research" width="1420" height="1045" loading="lazy"><span class="image-caption">View full-size image <span aria-hidden="true">↗</span></span></a>
       <div><p class="paper-meta">ICML 2025 <span>Quantum reinforcement learning</span></p><h3><a href="https://proceedings.mlr.press/v267/ganguly25a.html">Quantum Speedups in Regret Analysis of Infinite Horizon Average-Reward Markov Decision Processes</a></h3><p class="paper-takeaway">Investigating quantum speedups in exploration through an optimism-driven algorithm and a martingale-free regret analysis.</p><p class="authors"><strong>Bhargav Ganguly*</strong>, Yang Xu*, Vaneet Aggarwal</p><div class="paper-links"><a href="https://proceedings.mlr.press/v267/ganguly25a.html">Read paper <span aria-hidden="true">↗</span></a><span>* Equal contribution</span></div></div>
     </article>
     <article class="paper" id="paper-generative">
-      <div class="paper-image"><img src="/img/DGM_paper_summary.png" alt="Overview of deep generative models for offline policy learning" loading="lazy"></div>
+      <a class="paper-image" href="/img/DGM_paper_summary.png" target="_blank" rel="noopener" aria-label="View full-size image: Overview of deep generative models for offline policy learning (opens in a new tab)"><img src="/img/DGM_paper_summary.png" alt="Overview of deep generative models for offline policy learning" width="982" height="769" loading="lazy"><span class="image-caption">View full-size image <span aria-hidden="true">↗</span></span></a>
       <div><p class="paper-meta">TMLR 2024 <span>Generative models · Offline RL</span></p><h3><a href="https://openreview.net/forum?id=Mm2cMDl9r5">Deep Generative Models for Offline Policy Learning: Tutorial, Survey, and Perspectives on Future Directions</a></h3><p class="paper-takeaway">A unified view of five families of generative models and their roles in offline reinforcement learning and imitation learning.</p><p class="authors">Jiayu Chen, <strong>Bhargav Ganguly</strong>, Yang Xu, Yongsheng Mei, Tian Lan, Vaneet Aggarwal</p><div class="paper-links"><a href="https://openreview.net/forum?id=Mm2cMDl9r5">Read paper <span aria-hidden="true">↗</span></a></div></div>
     </article>
     <article class="paper" id="paper-fl">
-      <div class="paper-image"><img src="/img/test1_illustration.png" alt="Illustration of federated learning adapting to changing data distributions" loading="lazy"></div>
+      <a class="paper-image" href="/img/test1_illustration.png" target="_blank" rel="noopener" aria-label="View full-size image: Illustration of federated learning adapting to changing data distributions (opens in a new tab)"><img src="/img/test1_illustration.png" alt="Illustration of federated learning adapting to changing data distributions" width="2705" height="1232" loading="lazy"><span class="image-caption">View full-size image <span aria-hidden="true">↗</span></span></a>
       <div><p class="paper-meta">IEEE/ACM ToN 2023 <span>Federated learning · Concept drift</span></p><h3><a href="https://ieeexplore.ieee.org/abstract/document/10198306">Online Federated Learning via Non-Stationary Detection and Adaptation Amidst Concept Drift</a></h3><p class="paper-takeaway">MASTER-FL combines drift detection and multiscale adaptation to establish sublinear dynamic regret guarantees without prior knowledge of drift.</p><p class="authors"><strong>Bhargav Ganguly</strong>, Vaneet Aggarwal</p><div class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/10198306">Read paper <span aria-hidden="true">↗</span></a><a href="https://arxiv.org/abs/2211.12578">Preprint <span aria-hidden="true">↗</span></a></div></div>
     </article>
     <details class="publication-archive"><summary>Explore six more publications <span aria-hidden="true">+</span></summary><div class="archive-list">
@@ -69,6 +69,11 @@
       <article><p class="paper-meta">UAI 2021</p><h3><a href="https://proceedings.mlr.press/v161/agarwal21a.html">Communication Efficient Parallel Reinforcement Learning ↗</a></h3><p class="authors">Mridul Agarwal, <strong>Bhargav Ganguly</strong>, Vaneet Aggarwal</p><p>DIST-UCRL uses event-triggered synchronization to reduce communication while preserving regret guarantees.</p></article>
     </div></details>
   </section>
+
+  <section class="notes-section" id="notes" aria-labelledby="notes-title"><div class="wrap section">
+    <div class="section-heading"><div><p class="eyebrow">Research notes / Behind the papers</p><h2 id="notes-title">The ideas behind<br><em>the results.</em></h2></div><p>Explanations of the problems, methods, and limits behind my published research.</p></div>
+    <article class="note-preview"><div><p class="paper-meta">Federated learning · Concept drift</p><h3><a href="/notes/master-fl/">When data changes, how should federated learning adapt?</a></h3><p>What happens when the data changes after learning begins? MASTER-FL helps distributed models detect shifts and restart training. This visual overview walks through the idea and the experiments—with figures from our paper.</p><a class="text-link" href="/notes/master-fl/">Read the research note <span aria-hidden="true">↗</span></a></div><a class="note-preview-figure" href="/notes/master-fl/" aria-label="Read the MASTER-FL research note"><img src="/img/test1_illustration.png" alt="Conceptual illustration of a fresh model revealing a change in the learning environment" width="2705" height="1232" loading="lazy"></a></article>
+  </div></section>
 
   <section class="experience-section" id="experience" aria-labelledby="experience-title"><div class="wrap section">
     <div class="section-heading"><div><p class="eyebrow">02 / In practice</p><h2 id="experience-title">From mathematical ideas<br>to <em>operational decisions.</em></h2></div><p>Research shaped by uncertainty in logistics, distributed learning, and financial systems.</p></div>
