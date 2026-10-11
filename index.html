@@ -42,6 +42,10 @@
 
   <section class="section wrap" id="research" aria-labelledby="research-title">
     <div class="section-heading"><div><p class="eyebrow">01 / Research</p><h2 id="research-title">Decisions under uncertainty.<br><em>Grounded in theory.</em></h2></div><p>How can learning systems adapt when data shifts, communication is limited, and decisions have consequences?</p></div>
+    <figure class="research-landscape">
+      <div class="landscape-plot"><a href="/img/research/gradient-descent.svg" target="_blank" rel="noopener" aria-label="Open the full-size gradient-descent plot (opens in a new tab)"><img src="/img/research/gradient-descent.svg" alt="Contours of f(x,y)=(3x²+y²)/2 with a copper gradient-descent path from (2.7,2.4) toward the minimum at (0,0)." width="720" height="480" loading="lazy" decoding="async"></a></div>
+      <figcaption><p class="eyebrow">A mathematical lens</p><h3>Small steps.<br>Better decisions.</h3><p>Each contour joins points with the same objective value. Each copper dot takes a step against the gradient, approaching the minimum.</p><div class="landscape-equations"><span>f(x, y) = ½(3x² + y²)</span><span>θ<sub>t+1</sub> = θ<sub>t</sub> − η∇f(θ<sub>t</sub>)</span></div><p class="landscape-scope">Illustrative quadratic objective · θ = (x, y), η = 0.14<br>A view of optimization, not a result from a paper.</p></figcaption>
+    </figure>
     <div class="themes">
       <article><span class="theme-number">01</span><h3>Learning under change</h3><p>Federated optimization and concept-drift adaptation for distributed data that doesn’t stand still.</p><a href="#paper-fl">Explore MASTER-FL <span aria-hidden="true">↗</span></a></article>
       <article><span class="theme-number">02</span><h3>Sequential decision-making</h3><p>Multi-agent and quantum reinforcement learning, with regret and convergence guarantees.</p><a href="#paper-quantum">Explore quantum RL <span aria-hidden="true">↗</span></a></article>
